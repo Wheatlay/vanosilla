@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MailServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\MailServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63057;http://localhost:63060"
+    }
+  }
+}

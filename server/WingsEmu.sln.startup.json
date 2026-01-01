@@ -1,0 +1,54 @@
+{
+  "Version": 3,
+  "ListAllProjects": false,
+  "MultiProjectConfigurations": {
+    "Server": {
+      "Projects": {
+        "LoginServer": {
+          "ProfileName": "LoginServer",
+          "StartProject": true
+        },
+        "Master": {
+          "ProfileName": "Master",
+          "StartProject": true
+        },
+        "DatabaseServer": {
+          "ProfileName": "DatabaseServer",
+          "StartProject": true
+        },
+        "TranslationsServer": {
+          "ProfileName": "TranslationsServer",
+          "StartProject": true
+        },
+        "FamilyServer": {
+          "ProfileName": "FamilyServer",
+          "StartProject": true
+        },
+        "BazaarServer": {
+          "ProfileName": "BazaarServer",
+          "StartProject": true
+        },
+        "LogsServer": {
+          "ProfileName": "LogsServer",
+          "StartProject": true
+        },
+        "MailServer": {
+          "ProfileName": "MailServer",
+          "StartProject": true
+        },
+        "RelationServer": {
+          "ProfileName": "RelationServer",
+          "StartProject": true
+        },
+        "Scheduler": {
+          "ProfileName": "Scheduler",
+          "StartProject": true
+        },
+        "GameChannel": {
+          "ProfileName": "GameChannel",
+          "StartProject": true
+        }
+      }
+    }
+  }
+}

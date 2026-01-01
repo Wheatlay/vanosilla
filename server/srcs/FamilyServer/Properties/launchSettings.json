@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "FamilyServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\FamilyServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63043;http://localhost:63052"
+    }
+  }
+}

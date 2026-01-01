@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "LoginServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\LoginServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SERVER_PORT": "4000"
+      },
+      "applicationUrl": "https://localhost:63045;http://localhost:63058"
+    }
+  }
+}

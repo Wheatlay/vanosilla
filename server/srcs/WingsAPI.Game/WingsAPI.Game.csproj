@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <RootNamespace>WingsEmu.Game</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CloneExtensions" Version="1.4.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.Events\PhoenixLib.Events.csproj" />
+        <ProjectReference Include="..\PhoenixLib.Multilanguage\PhoenixLib.Multilanguage.csproj" />
+        <ProjectReference Include="..\WingsAPI.Communication\WingsAPI.Communication.csproj" />
+        <ProjectReference Include="..\WingsAPI.Data\WingsAPI.Data.csproj" />
+        <ProjectReference Include="..\WingsAPI.Packets\WingsAPI.Packets.csproj" />
+    </ItemGroup>
+
+</Project>

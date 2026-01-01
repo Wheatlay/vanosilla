@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>PhoenixLib.DAL.MongoDB</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MongoDB.Bson" Version="2.12.4" />
+        <PackageReference Include="MongoDB.Driver" Version="2.12.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.DAL.Abstractions\PhoenixLib.DAL.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

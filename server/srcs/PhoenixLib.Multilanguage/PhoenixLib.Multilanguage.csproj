@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>PhoenixLib.MultiLanguage</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Foundatio.JsonNet" Version="10.2.0" />
+        <PackageReference Include="Foundatio.Redis" Version="10.2.0" />
+        <PackageReference Include="StackExchange.Redis" Version="2.2.62" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.DAL.Redis\PhoenixLib.DAL.Redis.csproj" />
+    </ItemGroup>
+
+</Project>

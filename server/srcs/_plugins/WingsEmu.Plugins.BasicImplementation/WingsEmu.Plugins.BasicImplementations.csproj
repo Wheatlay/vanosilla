@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>preview</LangVersion>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Mapster" Version="7.2.0" />
+        <PackageReference Include="Polly" Version="7.2.2" />
+        <PackageReference Include="RandN" Version="0.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\PhoenixLib.Caching\PhoenixLib.Caching.csproj" />
+        <ProjectReference Include="..\..\PhoenixLib.Logging\PhoenixLib.Logging.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game.Extensions\WingsAPI.Game.Extensions.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Scripting\WingsAPI.Scripting.csproj" />
+        <ProjectReference Include="..\..\WingsEmu.Communication.gRPC\WingsEmu.Communication.gRPC.csproj" />
+        <ProjectReference Include="..\WingsEmu.Plugins.DistributedGameEvents\WingsEmu.Plugins.DistributedGameEvents.csproj" />
+        <ProjectReference Include="..\WingsEmu.Plugins.GameEvents\WingsEmu.Plugins.GameEvents.csproj" />
+    </ItemGroup>
+
+</Project>

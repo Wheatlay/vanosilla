@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "GameChannel": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\GameChannel",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63044;http://localhost:63056"
+    }
+  }
+}

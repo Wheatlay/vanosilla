@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Master": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\Master",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63048;http://localhost:63051"
+    }
+  }
+}

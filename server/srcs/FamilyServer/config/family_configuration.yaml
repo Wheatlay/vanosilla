@@ -1,0 +1,23 @@
+creation_is_group_required: false
+creation_group_members_required: 3
+creation_price: 200000
+minimum_name_length: 3
+maximum_name_length: 20
+deputy_limit: 2
+keeper_limit: 999
+time_between_family_rejoin: 1.00:00:00
+default_membership_capacity: 20
+upgrades: []
+levels:
+- level: 1
+  experience_range:
+    minimum: 0
+    maximum: 99999
+- level: 2
+  experience_range:
+    minimum: 100000
+    maximum: 219999
+- level: 3
+  experience_range:
+    minimum: 220000
+    maximum: 369999

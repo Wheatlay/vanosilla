@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Scheduler": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\Scheduler",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63047;http://localhost:63055"
+    }
+  }
+}

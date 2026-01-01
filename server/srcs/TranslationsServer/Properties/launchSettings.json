@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TranslationsServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\TranslationsServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63061;http://localhost:63065"
+    }
+  }
+}

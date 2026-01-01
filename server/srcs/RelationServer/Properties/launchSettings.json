@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RelationServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\RelationServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63062;http://localhost:63064"
+    }
+  }
+}

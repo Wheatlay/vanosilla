@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Toolkit": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\Toolkit"
+    }
+  }
+}

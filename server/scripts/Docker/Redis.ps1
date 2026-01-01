@@ -1,0 +1,1 @@
+docker run -p 6379:6379 --name redis  --restart always -d redis:latest redis-server --notify-keyspace-events Kx --appendonly yes

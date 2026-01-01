@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>WingsAPI.Game.Extensions</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.Scheduler\PhoenixLib.Scheduler.csproj" />
+        <ProjectReference Include="..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\WingsAPI.Packets\WingsAPI.Packets.csproj" />
+    </ItemGroup>
+
+</Project>

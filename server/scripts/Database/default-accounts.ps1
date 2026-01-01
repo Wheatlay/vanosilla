@@ -1,0 +1,1 @@
+﻿& "C:\Users\krzys\Desktop\Nos\server\dist\toolkit\Toolkit.exe" create-accounts

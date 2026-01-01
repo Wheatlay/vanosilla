@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>PhoenixLib.ServiceBus</RootNamespace>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CloudNative.CloudEvents" Version="1.3.80" />
+        <PackageReference Include="CloudNative.CloudEvents.Mqtt" Version="1.3.80" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+        <PackageReference Include="MQTTnet" Version="3.0.16" />
+        <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="3.0.16" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PhoenixLib.Logging\PhoenixLib.Logging.csproj" />
+    </ItemGroup>
+
+</Project>

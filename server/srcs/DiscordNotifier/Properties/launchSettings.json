@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DiscordNotifier": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\DiscordNotifier",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63049;http://localhost:63050"
+    }
+  }
+}

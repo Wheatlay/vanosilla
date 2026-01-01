@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>disable</Nullable>
+        
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\PhoenixLib.Configuration\PhoenixLib.Configuration.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Commands\WingsAPI.Commands.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game.Extensions\WingsAPI.Game.Extensions.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Game\WingsAPI.Game.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Plugins\WingsAPI.Plugins.csproj" />
+        <ProjectReference Include="..\..\WingsAPI.Scripting.LUA\WingsAPI.Scripting.LUA.csproj" />
+    </ItemGroup>
+
+</Project>

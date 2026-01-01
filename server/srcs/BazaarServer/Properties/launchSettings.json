@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BazaarServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\BazaarServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63046;http://localhost:63054"
+    }
+  }
+}

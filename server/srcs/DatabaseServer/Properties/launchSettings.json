@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DatabaseServer": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\krzys\\Desktop\\Nos\\server\\srcs\\DatabaseServer",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63053;http://localhost:63059"
+    }
+  }
+}
